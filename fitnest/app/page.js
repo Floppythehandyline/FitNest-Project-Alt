@@ -28,6 +28,9 @@ export default function Home() {
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-dumbbells.jpg"
               />
+              <div className="absolute bottom-5 left-5 text-white text-lg font-bold drop-shadow-lg">
+              DUMBELLS
+              </div>
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -36,6 +39,9 @@ export default function Home() {
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-treadmills.jpg"
               />
+              <div className="absolute bottom-5 left-5 text-white text-lg font-bold drop-shadow-lg">
+                TREADMILLS
+              </div>
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -44,6 +50,9 @@ export default function Home() {
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-whey.jpg"
               />
+              <div className="absolute bottom-5 left-5 text-white text-lg font-bold drop-shadow-lg">
+                WHEY PROTEIN
+              </div>
             </a>
           </SwiperSlide>
         </Swiper>
