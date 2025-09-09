@@ -13,7 +13,7 @@ export default function Home() {
         <Swiper
           modules={[Mousewheel, Pagination]}
           direction="vertical"
-          spaceBetween={5}
+          spaceBetween={6}
           slidesPerView={1}
           mousewheel={true}
           effect="fade"
@@ -28,10 +28,10 @@ export default function Home() {
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-dumbbells.jpg"
               />
-              <div className="absolute bottom-32 left-10 text-white text-lg font-bold drop-shadow-lg">
-                    <h2 className="text-3xl font-bold mb-2">Just Arrived!</h2>
-                    <p className="text-xl font-semibold">DUMBELLS</p>
-                    <p className="mt-2 text-sm text-gray-200">คอลเลคชันใหม่ที่จะช่วยยกระดับการออกกำลังกายของคุณ</p>
+              <div className="absolute bottom-40 left-30 text-white drop-shadow-lg">
+                    <h2 className="text-5xl font-bold mb-2 text-shadow-lg/30">Just Arrived!</h2>
+                    <p className="mt-4 text-4xl font-semibold text-shadow-lg/30">DUMBELLS</p>
+                    <p className="mt-2 text-2xl text-shadow-lg/30 font-[KanitCustom]">คอลเลคชันใหม่ที่จะช่วยยกระดับการยกน้ำหนักของคุณ</p>
               </div>
             </a>
           </SwiperSlide>
@@ -41,10 +41,10 @@ export default function Home() {
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-treadmills.jpg"
               />
-              <div className="absolute bottom-32 left-10 text-white text-lg font-bold drop-shadow-lg">
-                    <h2 className="text-3xl font-bold mb-2">Just Arrived!</h2>
-                    <p className="text-xl font-semibold">TREADMILLS</p>
-                    <p className="mt-2 text-sm text-gray-200">อุปกรณ์การวิ่งที่จะทำให้คุณมีสุขภาพที่ดี</p>
+              <div className="absolute bottom-40 left-30 text-white drop-shadow-lg">
+                    <h2 className="text-5xl font-bold mb-2 text-shadow-lg/30">Just Arrived!</h2>
+                    <p className="mt-4 text-4xl font-semibold text-shadow-lg/30">TREADMILLS</p>
+                    <p className="mt-2 text-2xl text-shadow-lg/30 font-[KanitCustom]">อุปกรณ์การวิ่งที่จะทำให้คุณมีสุขภาพที่ดี</p>
               </div>
             </a>
           </SwiperSlide>
@@ -54,10 +54,10 @@ export default function Home() {
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-whey.jpg"
               />
-              <div className="absolute bottom-32 left-10 text-white text-lg font-bold drop-shadow-lg">
-                    <h2 className="text-3xl font-bold mb-2">Just Arrived!</h2>
-                    <p className="text-xl font-semibold">WHEY PROTEIN</p>
-                    <p className="mt-2 text-sm text-gray-200">อาหารเสริมสุขภาพเพื่อยกระดับร่างกายของคุณ</p>
+              <div className="absolute bottom-40 left-30 text-white drop-shadow-lg">
+                    <h2 className="text-5xl font-bold mb-2 text-shadow-lg/30">Just Arrived!</h2>
+                    <p className="mt-4 text-4xl font-semibold text-shadow-lg/30">WHEY PROTEIN</p>
+                    <p className="mt-2 text-2xl text-shadow-lg/30 font-[KanitCustom]">อาหารเสริมสุขภาพเพื่อยกระดับร่างกายของคุณ</p>
               </div>
             </a>
           </SwiperSlide>

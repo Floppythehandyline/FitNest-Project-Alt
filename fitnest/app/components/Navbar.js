@@ -17,12 +17,12 @@ export default function Navbar() {
           </Link>
         </div>
         <ul className="nav-list relative top-18 justify-center flex items-center gap-[15%] font-[sans-serif] text-3xl font-[700] text-nowrap drop-shadow-2xl z-4">
-          <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg drop-shadow-2xl">
+          <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg/30 drop-shadow-2xl">
             <a href="/" target="_blank" rel="noopener noreferrer">
               DUMBBELLS
             </a>
           </li>
-          <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg drop-shadow-2xl">
+          <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg/30 drop-shadow-2xl">
             <a
               href="https://youtu.be/DZ47H84Bc_Q?si=lSayEz1673zdfEFz&t=45"
               target="_blank"
@@ -31,7 +31,7 @@ export default function Navbar() {
               TREADMILLS
             </a>
           </li>
-          <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg drop-shadow-2xl ">
+          <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg/30 drop-shadow-2xl ">
             <a
               href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRwQMMCnzSpLsFNtcztVLvQhvDVNwjFgBbZnlqQtvKHCQgCSZVVHXmnDgbFXBQspWrlBJSfg"
               target="_blank"
