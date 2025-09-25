@@ -5,6 +5,9 @@ import Link from "next/link";
 
 export default function PageNav() {
   const [isOpen, setIsOpen] = useState(false);
+  function rockinButton() {
+    window.open("http://localhost:3000/Register", "_blank");
+  }
   return (
     <>
       <div className="w-screen h-0 z-2">
