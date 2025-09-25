@@ -23,7 +23,7 @@ export default function Home() {
           className="h-full"
         >
           <SwiperSlide>
-            <a className="w-screen h-screen" href="/">
+            <a className="w-screen h-screen" href="/dumbell">
               <img
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-dumbbells.jpg"
@@ -42,7 +42,7 @@ export default function Home() {
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="/">
+            <a href="/treadmill">
               <img
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-treadmills.jpg"
@@ -61,7 +61,7 @@ export default function Home() {
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="/">
+            <a href="/whey_protein">
               <img
                 className="w-screen h-screen items-center justify-center z-1"
                 src="/home-whey.jpg"
