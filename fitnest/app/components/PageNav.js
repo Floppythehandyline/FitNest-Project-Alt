@@ -44,7 +44,7 @@ export default function PageNav() {
           </li>
         </ul>
 
-        <div className="relative justify-center flex items-center top-25">
+        <div className="relative justify-center flex items-center top-20">
           <Link href="/" className="logo">
             <img className="w-300" src="/Vector.png"/>
           </Link>
