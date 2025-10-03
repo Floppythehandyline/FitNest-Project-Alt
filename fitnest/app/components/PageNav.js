@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function PageNav() {
   const [isOpen, setIsOpen] = useState(false);
   function rockinButton() {
-    window.open("http://localhost:3000/Register", "_blank");
+    window.location.href = "/login";
   }
   return (
     <>
@@ -37,9 +37,10 @@ export default function PageNav() {
           </li>
           <li>
             <button
-              // onClick={rockinButton}
+              onClick={rockinButton}
               className="rock relative float-right right-[6%] w-30 h-10 font-[700] bg-[#606060] hover:bg-[#0067D1] active:bg-[#003770] rounded-xl focus:outline-2 focus:outline-[#0067D1] z-5"
             >
+              {/* <a  href="/" rel="noopener noreferrer"></a> */}
               Login
             </button>
           </li>
