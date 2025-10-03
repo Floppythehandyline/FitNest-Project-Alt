@@ -52,7 +52,7 @@ export default function WheyProtienPage() {
             </div>
             <div className="w-48 active:text-[#0067D1] hover:underline underline-offset-2 font-[sans-serif] text-lg font-[400] text-nowrap drop-shadow-2xl">
               <a href="/" rel="noopener noreferrer">
-                continue to payment ≫
+                continue to checkout ≫
               </a>
             </div>
             <button className="hover:text-[#ec0000] active:text-[#0067D1] cursor-pointer text-neutral-400 grid place-self-end w-15 font-[sans-serif] text-md font-thin text-nowrap drop-shadow-xl">
