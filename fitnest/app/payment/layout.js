@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "FitNest | Checkout",
+  title: "FitNest | Payment",
   description: "Build up your Fit",
 };
 
