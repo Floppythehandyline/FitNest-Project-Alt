@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 export default function TreadmillPage() {
   return (
     <main className="bg-gradient-to-b from-black to-[#1F1F1F] min-h-screen bg-[1d1d20]">
-      <div className="relative h-120 gap-1 self-center justify-self-center top-0 w-[90%] bg-neutral-600/30 backdrop-blur-s m rounded-[40px] backdrop-opacity-10 border-2">
+      <div className="relative gap-1 self-center justify-self-center top-0 w-[90%] bg-neutral-600/30 backdrop-blur-s m rounded-[40px] backdrop-opacity-10 border-2">
         <div className="w-[100%] flex justify-evenly justify-self-center h-full">
           <div className="sticky flex flex-col top-0 order-1 ml-10 mt-15 h-80 w-[16%] font-[sans-serif]">
             <div className="pb-5 font-[sans-serif] text-xl font-[600] text-nowrap drop-shadow-2xl">
