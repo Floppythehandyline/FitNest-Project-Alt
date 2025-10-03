@@ -6,12 +6,12 @@ import "swiper/css/pagination";
 
 export default function WheyProtienPage() {
   return (
-    <main className="sticky h-screen bg-linear-to-t from-[#1F1F1F] to-black z-1">
-      <div className="absolute gap-1 justify-self-center top-120 w-[85%] bg-neutral-600/30 backdrop-blur-s m rounded-[40px] backdrop-opacity-10 border-2">
+    <main className="bg-gradient-to-b from-black to-[#1F1F1F] min-h-screen bg-[1d1d20]">
+      <div className="relative h-120 gap-1 self-center justify-self-center top-0 w-[90%] bg-neutral-600/30 backdrop-blur-s m rounded-[40px] backdrop-opacity-10 border-2">
         <div className="w-[100%] flex justify-evenly justify-self-center h-full">
           <div className="sticky flex flex-col top-0 order-1 ml-10 mt-15 h-80 w-[16%] font-[sans-serif]">
             <div className="pb-5 font-[sans-serif] text-xl font-[600] text-nowrap drop-shadow-2xl">
-              Selection Fillter
+              Selection Filter
             </div>
             <span className="font-[sans-serif] text-xl font-[400] text-nowrap drop-shadow-2xl">
               Brand
@@ -43,20 +43,24 @@ export default function WheyProtienPage() {
               />
             </div>
           </div>
-          <div className="flex justify-center order-2 mt-15 h-full w-[64%] font-[sans-serif] text-xl font-[600] text-nowrap drop-shadow-2xl">
+          <div className="flex justify-center order-2 mt-15 h-full w-[62%] font-[sans-serif] text-xl font-[600] text-nowrap drop-shadow-2xl">
             Product
           </div>
-          <div className="sticky top-0 mr-7 flex flex-col order-3 mt-15 h-100 w-[20%] font-[sans-serif]">
+          <div className="sticky top-0 mr-6 flex flex-col order-3 mt-15 h-[20%] w-[22%] font-[sans-serif]">
             <div className="pb-5 font-[sans-serif] text-xl font-[600] text-nowrap drop-shadow-2xl">
               Shopping Cart
             </div>
-            <span className="active:text-[#0067D1] hover:underline underline-offset-2 font-[sans-serif] text-lg font-[400] text-nowrap drop-shadow-2xl">
+            <div className="w-48 active:text-[#0067D1] hover:underline underline-offset-2 font-[sans-serif] text-lg font-[400] text-nowrap drop-shadow-2xl">
               <a href="/" rel="noopener noreferrer">
                 continue to payment ≫
               </a>
-            </span>
+            </div>
+            <button className="hover:text-[#ec0000] active:text-[#0067D1] cursor-pointer text-neutral-400 grid place-self-end w-15 font-[sans-serif] text-md font-thin text-nowrap drop-shadow-xl">
+              clear all
+            </button>
           </div>
         </div>
+        
       </div>
     </main>
   );

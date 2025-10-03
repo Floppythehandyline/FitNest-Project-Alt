@@ -10,7 +10,7 @@ export default function PageNav() {
   }
   return (
     <>
-      <div className="h-0 z-3">
+      <div className="bg-black h-110 z-3">
         <ul className="nav-list relative top-10 justify-center flex items-center gap-[5%] font-[sans-serif] text-xl font-[700] text-nowrap drop-shadow-2xl z-4">
           <li className="nav-item active:text-[#0067D1] hover:underline underline-offset-2 text-shadow-lg/30 drop-shadow-2xl">
             <a href="/" rel="noopener noreferrer">
